@@ -4,107 +4,202 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Web Site SP</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Add your custom CSS file here -->
+    <title>JOA.</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat&family=Inter:wght@400;500&family=Libre+Baskerville&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
+<body id="home" class="home page-template">
+
     <header>
-        <h1>Welcome to my first project 'JOICES'</h1>
-        <p>
-            Ideas don't always arrive when we need them and "Starting" is a process filled with challenges.
-             <br />
-            I'm starting with a bunch of different ideas to discover where it leads me.
-        </p>
+        <div class="logo">
+            <a class="brand" href="https://sarapintoal.github.io/html-portfolio/">
+                <img src="SVGfiles/logo-A.svg">
+            </a>
+        </div>
+        <nav class="navbar">
+            <ul class="main-menu">
+                <li class="dropdown">
+                    <a href="https://sarapintoal.github.io/html-portfolio/HealthWellness/FrontpageHW.html">Health and
+                        Wellness</a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="https://sarapintoal.github.io/html-portfolio/HealthWellness/Nutrition.html">Nutrition and Fitness</a>
+                        </li>
+                        <li>
+                            <a href="https://sarapintoal.github.io/html-portfolio/HealthWellness/MentalHealth.html">Mental Health</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="https://sarapintoal.github.io/html-portfolio/BusinessFinance/FrontpageBF.html">Business and
+                        Finance</a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="https://sarapintoal.github.io/html-portfolio/BusinessFinance/PersonalFinance.html">Personal
+                                        Finance</a>
+                        </li>
+                        <li>
+                            <a
+                                    href="https://sarapintoal.github.io/html-portfolio/BusinessFinance/CareerDevelopment.html">Career
+                                        Development</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="https://sarapintoal.github.io/html-portfolio/HomeLifestyle/Frontpage_HL.html">Home and
+                        Lifestyle</a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="https://sarapintoal.github.io/html-portfolio/HomeLifestyle/HomeImprovement.html">Home
+                                Improvement</a>
+                        </li>
+                        <li>
+                            <a href="https://sarapintoal.github.io/html-portfolio/HomeLifestyle/CookingRecipes.html">Cooking
+                                and Recipes</a>
+                        </li>
+                        <li>
+                            <a href="https://sarapintoal.github.io/html-portfolio/HomeLifestyle/FashionBeauty.html">Fashion
+                            and Beauty</a>
+                        </li>
+                        <li>
+                            <a href="https://sarapintoal.github.io/html-portfolio/HomeLifestyle/PartyPlanningTips.html">Party
+                                Planning and Tips</a>
+                        </li>
+                        <li>
+                            <a href="https://sarapintoal.github.io/html-portfolio/HomeLifestyle/Travel.html">Travel</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="https://sarapintoal.github.io/html-portfolio/Kids/Frontpage_K.html">Kids</a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="https://sarapintoal.github.io/html-portfolio/Kids/BirthdayParties.html">Birthday
+                                Parties</a>
+                        </li>
+                        <li>
+                            <a href="https://sarapintoal.github.io/html-portfolio/Kids/ActivitiesPlaytime.html">Activities
+                                and Playtime</a>
+                        </li>
+                        <li>
+                            <a href="https://sarapintoal.github.io/html-portfolio/Kids/MiniEducationLearning.html">Mini
+                                Education and Learning</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <div class="container-search">
+                        <div class="container-fluid">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
     </header>
+    <section class="content1">
+        <div class="image">
+            <img src="BusinessFinance/BusinessFinance_4.jpg" alt="a stair to achive the goal">
+        </div>
+        <div class="text">
+            <p>Get Inspired.Everything you need is to 'START'</p>
+        </div>
+    </section>
+    <section class="content2">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="HomeLifestyle/travel_2.jpg" class="d-block w-100" alt="a plane on a hand with a city in background">
+                </div>
+                <div class="carousel-item">
+                    <img src="Kids/kidsparty_1.jpg" class="d-block w-100" alt="kids party">
+                </div>
+                <div class="carousel-item">
+                    <img src="HomeLifestyle/food_1.jpg" class="d-block w-100"
+                        alt="table with different dishes, salads and pizza and drinks">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <div class="relative">
+        <footer class="content-info footer-group color-letter">
+            <div class="footer-nav-wrap">
+                <div class="wrapper">
+                    <div class="d-flex row justify-content-between">
+                        <div class="col-md-8 d-flex flex-wrap justify-content-between">
+                            <div class="nav-col">
+                                <h3 class="headline-4 color-letter logo-footer">JOA.</h3>
+                            </div>
+                            <div class="nav-col">
+                                <h3 class="headline-4 color-letter">About Me</h3>
+                                <a href="AboutMe/ContactMe.html"
+                                    class="footer-nav-link color-letter sm-headline caps">Contact</a>
+                                <a href="AboutMe/CV.html" class="footer-nav-link color-letter sm-headline caps">CV</a>
+                            </div>
+                            <div class="nav-col">
+                                <h3 class="headline-4 color-letter">Coming Soon</h3>
+                            </div>
+                        </div>
+                        <div class="footer-details">
+                            <div class="social-icons margin-top--20 d-flex col-12">
+                                <a href="https://instagram.com">
+                                    <img src="SVGfiles/b_instagram-rounded-border-svgrepo-com.svg" alt="Instagram">
+                                </a>
+                                <a href="https://pinterest.com/">
+                                    <img src="SVGfiles/b_pinterest-svgrepo-com.svg" alt="Pinterest">
+                                </a>
+                                <a href="https://www.linkedin.com/in/sara-diogopinto/">
+                                    <img src="SVGfiles/b_linkedin-outline-svgrepo-com.svg" alt="Linkedin">
+                                </a>
+                            </div>
+                            <div class="d-flex justify-md-content-between margin-top--50 col-12 w-100">
+                                <div class="sm-headline caps color-letter no-wrap">
+                                    ©JOA.
+                                </div>
+                                <div class="sm-headline copy-gap">
+                                    |
+                                </div>
+                                <div class="sm-headline caps color-letter no-wrap">
+                                    Made By Me | Sara Alves |
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</nav>
 
-    <nav>
-        <ol>
-            <li> <a href="./TechnologyGadgets/FrontpageTG.html">
-                    <h2>Technology and Gadgets</h2>
-                </a>
+<main>
 
-                <ul>
-                    <li>Apps</li>
-                    <li>Tips</li>
-                    <li>Renewable Energy</li>
-                </ul>
-            </li>
-            <br />
-            <li> <a href="./HealthWellness/FrontpageHW.html">
-                    <h2>Health and Wellness</h2>
-                </a>
-                <ul>
-                    <li>Nutrition</li>
-                    <li>Fitness</li>
-                    <li>Mental Health</li>
-                </ul>
-            </li>
-            <br />
-            <li> <a href="./Travel/FrontpageT.html">
-                    <h2>Travel</h2>
-                </a>
-                <ul>
-                    <li>Destinations</li>
-                    <li>Adventure Activities</li>
-                    <li>Travel Planning</li>
-                </ul>
-            </li>
-            <br />
-            <li> <a href="./HomeLifestyle/Frontpage_HL.html">
-                    <h2>Home and Lifestyle</h2>
-                </a>
-                <ul>
-                    <li>Home Improvement</li>
-                    <li>Cooking and Recipes</li>
-                    <li>Fashion and Beauty</li>
-                </ul>
-            </li>
-            <br />
-            <li> <a href="./BusinessFinance/FrontpageBF.html">
-                    <h2>Business and Finance</h2>
-                </a>
-                <ul>
-                    <li>Personal Finance</li>
-                    <li>Career Development</li>
-                    <li>Education</li>
-                </ul>
-            </li>
-            <br />
-            <li> <a href="./Kids/Frontpage_K.html">
-                    <h2>Kids</h2>
-                </a>
-                <ul>
-                    <li>Birthday Parties</li>
-                    <li>Parenting Tips</li>
-                    <li>Activities and Playtime</li>
-                    <li>Mini Education and Learning</li>
-                    <li>Special Recipes</li>
-                </ul>
-            </li>
-            <br />
-            <li> <a href="./Entertainment/FrontpageE.html">
-                    <h2>Entertainment</h2>
-                </a>
-                <ul>
-                    <li>Party Planning and Tips</li>
-                    <li>Movies, Series and Books</li>
-                </ul>
-            </li>
-        </ol>
-        <br />
-        <a href="./AboutMe/ContactMe.html">
-            <h3>About Me</h3>
-        </a>
-    </nav>
-
-    <main>
-
-    </main>
-    <br />
-    <footer>
-        <p>&copy; 2023 Sara Pinto - All rights reserved</p>
-    </footer>
+</main>
+<br />
 </body>
 
 </html>
